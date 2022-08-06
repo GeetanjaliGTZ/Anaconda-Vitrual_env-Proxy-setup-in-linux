@@ -6,27 +6,28 @@ mkdir Anaconda
  https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
  ls
  bash [Anaconda3-2021.11-Linux-x86_64.sh](http://anaconda3-2021.11-linux-x86_64.sh/)
- python
- ls
- cd ..
- ls
- cd ~
- source .bashrc
- python
- python3
- ls -a
- cd ~
- source .bashrc
- python
- vi .bashrc
- conda -V
- ls
- history
- vi .bashrc
+nano .bashrc
+                              # >>> conda initialize >>>
+                              # !! Contents within this block are managed by 'conda init' !!
+                              __conda_setup="$('/home/d19062/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+                              if [ $? -eq 0 ]; then
+                                  eval "$__conda_setup"
+                              else
+                                  if [ -f "/home/d19062/anaconda3/etc/profile.d/conda.sh" ]; then
+                                      . "/home/d19062/anaconda3/etc/profile.d/conda.sh"
+                                  else
+                                      export PATH="/home/d19062/anaconda3/bin:$PATH"
+                                  fi
+                              fi
+                              unset __conda_setup
+                              # <<< conda initialize <<<
+    
+       
+    
 source .bashrc
 python
-conda -V
-conda create -n myenv python3.9 anaconda
+conda -V #check anaconda version
+conda create -n myenv python3.9 anaconda # create virtual env 
 w3m [www.gateway.iitmandi.ac.in/facstaff/login.php](http://www.gateway.iitmandi.ac.in/facstaff/login.php)
 export  http_proxy="http://10.8.0.1:8080/"
 export  https_proxy="http://10.8.0.1:8080/"
