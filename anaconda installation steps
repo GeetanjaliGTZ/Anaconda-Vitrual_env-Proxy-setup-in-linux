@@ -1,0 +1,43 @@
+Initial installation Steps:
+
+mkdir Anaconda
+ https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+ cd Anaconda
+ https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+ ls
+ bash [Anaconda3-2021.11-Linux-x86_64.sh](http://anaconda3-2021.11-linux-x86_64.sh/)
+ python
+ ls
+ cd ..
+ ls
+ cd ~
+ source .bashrc
+ python
+ python3
+ ls -a
+ cd ~
+ source .bashrc
+ python
+ vi .bashrc
+ conda -V
+ ls
+ history
+ vi .bashrc
+source .bashrc
+python
+conda -V
+conda create -n myenv python3.9 anaconda
+w3m [www.gateway.iitmandi.ac.in/facstaff/login.php](http://www.gateway.iitmandi.ac.in/facstaff/login.php)
+export  http_proxy="http://10.8.0.1:8080/"
+export  https_proxy="http://10.8.0.1:8080/"
+export  HTTP_PROXY="http://10.8.0.1:8080/"
+export  HTTPS_PROXY="http://10.8.0.1:8080/"
+conda create -n myenv python3.9 anaconda
+conda create -n myenv python3 anaconda
+ conda create --name myenv python=3.9
+conda activate myenv
+ nvidia-smi
+pip install tenorflow-gpu
+clear
+conda activate myenv
+ pip install numpy
