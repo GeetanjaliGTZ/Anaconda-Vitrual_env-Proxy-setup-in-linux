@@ -27,7 +27,6 @@ nano .bashrc
 source .bashrc
 python
 conda -V #check anaconda version
-conda create -n myenv python3.9 anaconda # create virtual env 
 w3m [www.gateway.iitmandi.ac.in/facstaff/login.php](http://www.gateway.iitmandi.ac.in/facstaff/login.php)
 export  http_proxy="http://10.8.0.1:8080/"
 export  https_proxy="http://10.8.0.1:8080/"
