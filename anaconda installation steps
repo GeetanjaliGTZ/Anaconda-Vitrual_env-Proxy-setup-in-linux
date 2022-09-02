@@ -32,12 +32,14 @@ export  http_proxy="http://10.8.0.1:8080/"
 export  https_proxy="http://10.8.0.1:8080/"
 export  HTTP_PROXY="http://10.8.0.1:8080/"
 export  HTTPS_PROXY="http://10.8.0.1:8080/"
-conda create -n myenv python3.9 anaconda
-conda create -n myenv python3 anaconda
- conda create --name myenv python=3.9
+conda create --name myenv python=3.9
 conda activate myenv
- nvidia-smi
+nvidia-smi
 pip install tenorflow-gpu
 clear
 conda activate myenv
- pip install numpy
+pip install numpy
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-22-04
+
+
