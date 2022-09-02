@@ -1,10 +1,8 @@
 Initial installation Steps:
 
-mkdir Anaconda
+Download Anaconda from below link
  https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
- cd Anaconda
- https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
- ls
+Go to the download folder and run command
  bash Anaconda3-2021.11-Linux-x86_64.sh
 nano .bashrc
                               # >>> conda initialize >>>
@@ -38,7 +36,9 @@ nvidia-smi
 pip install tenorflow-gpu
 clear
 conda activate myenv
-pip install numpy
+# first we need to check the compatibility of cuda and cudnn and then according install the cuda and cudnn version accordingly. 
+conda install -c anaconda cudatoolkit
+conda install -c anaconda cudnn
 
 https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-22-04
 
