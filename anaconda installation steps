@@ -36,7 +36,7 @@ nvidia-smi
 pip install tenorflow-gpu
 clear
 conda activate myenv
-# first we need to check the compatibility of cuda and cudnn and then according install the cuda and cudnn version accordingly. 
+# first we need to check the compatibility of cuda and cudnn and then install cuda and cudnn version accordingly. 
 conda install -c anaconda cudatoolkit
 conda install -c anaconda cudnn
 
