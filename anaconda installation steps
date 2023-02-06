@@ -23,9 +23,9 @@ nano .bashrc
        
     
 source .bashrc
-python
 conda -V #check anaconda version
-w3m www.gateway.iitmandi.ac.in/facstaff/login.php
+pip install w3m
+w3m www.gateway.iitmandi.ac.in/facstaff/login.php 
 export  http_proxy="http://10.8.0.1:8080/"
 export  https_proxy="http://10.8.0.1:8080/"
 export  HTTP_PROXY="http://10.8.0.1:8080/"
