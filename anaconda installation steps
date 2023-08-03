@@ -44,15 +44,19 @@ https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-pyt
 
 
 
-Set and unset the proxy in system in following files :
+Set and unset the proxy of system in the following files :
 
 Acquire::http::Proxy "http://10.8.0.1:8080/";
 Acquire::https::Proxy "http://10.8.0.1:8080/";
 
 if you want to unset the proxy please comment on the above proxy lines.
-
+Remove the proxy from the below-given files.
 /etc/environment
 /etc/apt/apt.conf.d
 /etc/apt/apt.conf.d
+nano .bashrc
+cat .condarc
+gedit .condarc
+
 
 
