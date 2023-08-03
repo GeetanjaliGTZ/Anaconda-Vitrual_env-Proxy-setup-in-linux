@@ -58,5 +58,13 @@ nano .bashrc
 cat .condarc
 gedit .condarc
 
+Before installing any packages using pip run the below lines of commands:
+unset  https_proxy
+unset  http_proxy
+unset  no_proxy
+unset  HTTPS_PROXY
+unset  HTTP_PROXY
+unset  NO_PROXY
+
 
 
