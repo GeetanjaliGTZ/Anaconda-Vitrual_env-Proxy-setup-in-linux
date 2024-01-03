@@ -69,3 +69,8 @@ unset  NO_PROXY
 
 # if you want to install any packages in specific python version 
 python3.10 -m pip install -r requirements.txt
+
+
+
+
+
